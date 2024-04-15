@@ -3,38 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Melissa Lux - Gioielli di Lusso</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Collega il tuo file CSS per lo stile -->
+    <title>Sportive Lux Car</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            text-align: center;
+            padding: 20px;
+        }
+        .lux-car-image {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        .lux-car-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .lux-car {
+            width: 300px;
+            margin: 10px;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Benvenuti su Melissa Lux</h1>
-        <p>Scopri la nostra collezione esclusiva di gioielli di lusso.</p>
-    </header>
-
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">Chi Siamo</a></li>
-            <li><a href="products.html">Prodotti</a></li>
-            <li><a href="contact.html">Contatti</a></li>
-        </ul>
-    </nav>
-
-    <main>
-        <section id="featured-products">
-            <h2>Prodotti in Evidenza</h2>
-            <!-- Inserisci qui le immagini e le descrizioni dei tuoi gioielli -->
-        </section>
-
-        <section id="about-us">
-            <h2>Chi Siamo</h2>
-            <p>Da oltre 20 anni, Melissa Lux crea gioielli unici e pregiati per uomini e donne.</p>
-        </section>
-    </main>
-
-    <footer>
-        <p>© 2024 Melissa Lux - Tutti i diritti riservati.</p>
-    </footer>
+    <div class="header">
+        <h1>Sportive Lux Car</h1>
+        <p>Le migliori macchine sportive di lusso!</p>
+    </div>
+    <div class="lux-car-container">
+        <div class="lux-car">
+            <img src="img/ferrari.jpg" alt="Ferrari" class="lux-car-image">
+            <p>Ferrari LaFerrari</p>
+        </div>
+        <div class="lux-car">
+            <img src="img/lamborghini.jpg" alt="Lamborghini" class="lux-car-image">
+            <p>Lamborghini Aventador</p>
+        </div>
+        <div class="lux-car">
+            <img src="img/bugatti.jpg" alt="Bugatti" class="lux-car-image">
+            <p>Bugatti Chiron</p>
+        </div>
+    </div>
 </body>
 </html>
