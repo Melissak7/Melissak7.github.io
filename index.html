@@ -4,28 +4,31 @@
     <title>MELI'S LUX CAR</title>
     <style>
         body {
-            background-color: silver;
+            background-color: black;
             font-family: Arial, sans-serif;
+            color: white;
         }
         h1 {
             text-align: center;
-            color: black;
         }
         p {
             text-align: center;
-            color: black;
         }
         .car-image {
             display: block;
             margin-left: auto;
             margin-right: auto;
             width: 50%;
+            animation: mymove 5s infinite;
+        }
+        @keyframes mymove {
+            50% {transform: translateY(-20px);}
         }
     </style>
 </head>
 <body>
     <h1>Benvenuto a MELI'S LUX CAR</h1>
-    <p>Il tuo sito web di macchine sportive di lusso. Scopri le nostre incredibili auto di lusso e immergiti nel mondo dell'alta velocità e del comfort supremo.</p>
+    <p>Il tuo sito web di macchine sportive di lusso. MELI'S LUX CAR è un'azienda leader nel settore delle auto sportive di lusso. Ci impegniamo a offrire solo le migliori auto di lusso per soddisfare i gusti più raffinati. Scopri le nostre incredibili auto di lusso e immergiti nel mondo dell'alta velocità e del comfort supremo.</p>
     <img class="car-image" src="URL_immagine_auto_1" alt="Auto sportiva di lusso 1">
     <img class="car-image" src="URL_immagine_auto_2" alt="Auto sportiva di lusso 2">
     <img class="car-image" src="URL_immagine_auto_3" alt="Auto sportiva di lusso 3">
