@@ -7,6 +7,7 @@
             background-color: black;
             font-family: Arial, sans-serif;
             color: white;
+            animation: fadeIn 3s ease-in-out;
         }
         h1 {
             text-align: center;
@@ -19,17 +20,30 @@
             margin-left: auto;
             margin-right: auto;
             width: 50%;
-            animation: mymove 5s infinite;
+            animation: slideIn 3s ease-in-out;
         }
-        @keyframes mymove {
-            50% {transform: translateY(-20px);}
+        @keyframes slideIn {
+            0% {
+                transform: translateY(-100%);
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
         }
     </style>
 </head>
 <body>
     <h1>Benvenuto a MELI'S LUX CAR</h1>
-    <p>Il tuo sito web di macchine sportive di lusso. MELI'S LUX CAR è un'azienda leader nel settore delle auto sportive di lusso. Ci impegniamo a offrire solo le migliori auto di lusso per soddisfare i gusti più raffinati. Scopri le nostre incredibili auto di lusso e immergiti nel mondo dell'alta velocità e del comfort supremo.</p>
-    <img class="car-image" src=" https://github.com/Melissak7/Melissak7.github.io/blob/main/lux.jpeg " alt="Auto sportiva di lusso 1">
+    <p>MELI'S LUX CAR è un'azienda leader nel settore delle auto sportive di lusso. Ci impegniamo a offrire solo le migliori auto di lusso per soddisfare i gusti più raffinati. Scopri le nostre incredibili auto di lusso e immergiti nel mondo dell'alta velocità e del comfort supremo.</p>
+    <img class="car-image" src="URL_immagine_auto_1" alt="Auto sportiva di lusso 1">
     <img class="car-image" src="URL_immagine_auto_2" alt="Auto sportiva di lusso 2">
     <img class="car-image" src="URL_immagine_auto_3" alt="Auto sportiva di lusso 3">
 </body>
